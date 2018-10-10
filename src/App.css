@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.top_content{
+  color:white;
+  padding-top:1rem;
+}
+
+.custom_form{
+  font-size: large;
+  display:flex;
+  justify-content: space-around;
+  padding: 0 8%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.first_text{
+  font-size: 13px;
+  padding: 0 8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.second_text{
+  font-size:18px;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 6rem;
+}
+
+.form-control{
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.submit{
+  background-color: #1266da;
+  color:white;
+  border-color: #1266da;
+  box-shadow: -1px 1px 8px 1px #262654;
+  width: 175px;
+  font-size: 16px;
+}
+
+.submit:hover, .submit:focus, .submit:active{
+  background-color: #1563d0;
+  border-color: #1563d0;
+  color:white;
+  box-shadow:none;
+  cursor: pointer;
+}
+
+.defaultResultBox{
+  width: 50%;
+  min-height: 150px;
+  background-color: white;
+  box-shadow: 1px 0px 8px 0px lightgrey;
+  position: absolute;
+  left: 25%;
+  margin-top: -4%;
+  color: #7A7D80;
+  padding: 15px 30px;
+  font-size:12px;
+  max-height:250px;
+}
+
+.newResultBox{
+  background-image: linear-gradient(#77abff, #5ddecb);
+  color:white;
+  width: 50%;
+  min-height: 130px;
+  position: absolute;
+  left: 25%;
+  margin-top: -4%;
+  padding: 15px 40px 10px;
+  max-height:250px;
+}
+
+.result_title{
+  font-size:16px;
+  font-weight:bold;
+}
+
+.newResult_title{
+  font-size:19px;
+}
+
+.result_content{
+  display:flex;
+  justify-content: space-around;
+  padding: 10px 40px 0 40px;
+}
+
+.newResult_content{
+  display:flex;
+  justify-content: flex-start;
+}
+
+.result_img{
+  height:75px;
+}
+
+.newResult_img{
+  height:70px;
+  margin-top:3%;
+}
+
+.result_text{
+  margin-top:4%;
+}
+
+.right_content{
+  margin-left:15%;
+}
+
+.newResult_text{
+  margin-top:6%;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.bottom_content{
+  background: linear-gradient(125deg, #FFFFFF 37%, transparent 15%),
+    linear-gradient(160deg, #FFFFFF 0%, transparent 0%),
+    linear-gradient(305deg, #FFFFFF 34%, transparent 15%),
+    linear-gradient(75deg, #FFFFFF 0%, transparent 0%);
+  background-size: 100%;
+  background-color: #F5F6F8;
+  display:inline-block;
+}
+
+.box_div{
+  display:flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  margin-top:8rem;
+}
+
+.content_box{
+  width:28%;
+  font-size:14px;
+}
+
+.box_title{
+  font-size: 16px;
+  margin-top:11%;
+  color: #333333;
+}
+
+.box_img{
+  height:60px;
+  margin-left:12px;
+}
+
+.box_head{
+  display:flex;
+  justify-content: flex-start;
+}
+
+.box_text{
+  padding:12px 0;
+  color: #666666;
+  text-align: left;
+}
+
+select.location, select.experience{
+  min-width: 260px;
+}
+
+input.designation{
+  min-width:260px;
+}
+.valid-error{
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+.display-none{
+   display: none;
+}
